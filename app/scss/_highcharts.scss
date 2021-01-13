@@ -84,9 +84,9 @@
   .highcharts-yaxis-labels {
     fill: $slate-secondary-5;
     // use this to change the axis label
-    & span:first-child {
-      &:after {
-        content: "%";
+    & span:last-child {
+      &:before {
+        content: "$";
     }
     }
   }

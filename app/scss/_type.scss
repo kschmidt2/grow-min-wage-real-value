@@ -20,11 +20,7 @@ $font-stack: 'Avenir', 'Avenir Next', 'Arial', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     // bottom margin should be 30px if there is no legend
-    margin-bottom: 30px;
-    @include sm-md-xl {
-        // set this only if there is a chart title + legend
-        margin-bottom: -33px;
-    }
+    margin-bottom: 20px;
 }
 
 .chart-note {
